@@ -1,33 +1,37 @@
-//Document Objesi
+//document objesi
 
 // console.log(window);
 
+// let value;
+// value = document.getElementById("todoAddButton");
+// value = 
 
-let value ;
+// console.log(value);
 
-console.log(document);
+const todo = document.querySelectorAll(".list-group-item")[0];//buyerdin ozgertmekqi objecitni tallaymiz
 
+// console.log(todo);
 
-// value = document.location.href;
-// value = document.location.hostname;
-// value = document.location.port;
-// value = document.location.pathname;
+todo.style.color="red"; // Todo 1 --ning hitini kizl kilduk
+todo.style.backgroundColor = "purple"; // Todo 1 --ning background ning rengini ozgertuk
+todo.style.fontWeight="bold"; //// Todo 1 --ning hiting kelinliki kelin kilduk
+todo.style.paddingTop ="20px";//Todo 1 --ning yukurdin 20px lik bosluk birakti
+todo.style.paddingLeft ="70px";//Todo 1 --ning soldin 70px lik bosluk birakti
 
+//------------------------------------------------------------------------------
 
-// value = document.all;
-// value = document.characterSet;
+const todoList = document.querySelector(".list-group");//buyerdin ozgertmekqi objecitni tallaymiz,html 37.kur
 
+console.log(todoList);
+todoList.style.marginTop="60px";
+todoList.style.marginLeft="50px";
 
-// value = document.title;
-// value = document.links.item(4);
-// value = document.links.item(4).id;
-// value = document.links.item(4).getAttribute("id");
-// value = document.links.item(4).getAttribute("class");
-// value = document.links.item(4).classList[3];
+//----------------------------------------------------------
 
-// value  = document.forms.item(1).children;
+const clearButton = document.querySelector("#todoClearButton");//doc..html ning 60.kurdiki "todoClearButton" talliduk
+console.log(clearButton);
 
-// value = document.domain;
-// value = document.contentType;
-
-console.log(value);
+clearButton.style.backgroundColor="blue";//backgroundColor ni blue kilduk
+clearButton.style.fontWeight="bold";//button ning hitining kelinliki kelin kilduk
+clearButton.style.padding="10px";
+clearButton.style.borderRadius = "80px";//button kenarini yuvarlak kilduk
