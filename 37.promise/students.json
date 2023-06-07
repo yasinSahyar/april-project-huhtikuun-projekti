@@ -1,0 +1,33 @@
+
+[
+    {
+        "id" :1,
+        "firstname" : "yasin",
+        "lastname" : "exmet"
+    },
+    {
+        "id" :2,
+        "firstname" : "isa",
+        "lastname" : "memet"
+    },
+    {
+        "id" :3,
+        "firstname" : "kamal",
+        "lastname" : "bilal"
+    },
+    {
+        "id" :4,
+        "firstname" : "ayjamal",
+        "lastname" : "ehmet"
+    },
+    {
+        "id" :5,
+        "firstname" : "bilkiz",
+        "lastname" : "kasim"
+    },
+    {
+        "id" :6,
+        "firstname" : "zohregul",
+        "lastname" : "hesen"
+    }
+]
