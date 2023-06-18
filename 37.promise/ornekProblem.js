@@ -1,5 +1,8 @@
 // promise + XMLHTTPREQUEST(bunu kullanip okuyucaz)
 
+// fetck api 
+// Axios
+
 //promise all
 
 function readStuedents(url){
